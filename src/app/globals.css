@@ -22,6 +22,19 @@ body {
   background: #F3EFE0;
 }
 
+.bgmain {
+  background: black;
+}
+
+.resultsbg {
+  background: #12222b;
+  border-color: #F3EFE0;
+}
+
+.slidercol {
+  border-color: #F3EFE0;
+}
+
 .playfair {
   font-family: 'Playfair Display', serif;
   letter-spacing: -0.025em;

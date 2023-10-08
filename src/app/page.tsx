@@ -4,12 +4,8 @@ import { Grid, Typography, Box, Button } from '@mui/material'
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import Image from 'next/image';
-import PageviewIcon from '@mui/icons-material/PageviewRounded';
 import React, { useState } from 'react';
-import { useNavigation } from 'next/navigation';
-import axios from 'axios';
 import Link from 'next/link';
-import { NavigateBefore } from '@mui/icons-material';
 
 export default function Home() {
 
@@ -45,7 +41,7 @@ export default function Home() {
       fontSize: '8vh',
     }}
   >
-    Pushing the boundaries of innovation, we <span className="italic underline">roll out</span> generational AI products, focused on <span className="italic underline">transforming</span> the progression of humanity.
+    Pushing the boundaries of innovation, we <span className="italic">roll out</span> generational AI products, focused on <span className="italic underline textemph">transforming</span> the progression of humanity.
   </Typography>
 </motion.div>
           </Grid>
