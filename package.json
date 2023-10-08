@@ -21,13 +21,15 @@
     "@mui/icons-material": "^5.14.12",
     "@mui/material": "^5.14.12",
     "axios": "^1.5.1",
+    "express": "^4.18.2",
     "framer-motion": "^10.16.4",
     "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18",
     "react-intersection-observer": "^9.5.2",
     "react-material-ui-carousel": "^3.4.2",
-    "react-responsive-carousel": "^3.2.23"
+    "react-responsive-carousel": "^3.2.23",
+    "sharp": "^0.32.6"
   },
   "devDependencies": {
     "@types/node": "^20",
